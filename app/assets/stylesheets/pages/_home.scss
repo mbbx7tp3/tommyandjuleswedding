@@ -7,8 +7,10 @@ body {
   text-align: center;
 }
 
-.pictureback {
-  background-image: url(Couple.jpg)
+.home-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
 }
 
 .mainpage img {
