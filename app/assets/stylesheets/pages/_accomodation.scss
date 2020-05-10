@@ -1,0 +1,22 @@
+.hotel-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+  padding-top: 3%;
+}
+
+.hotel-images img {
+  width: 400px;
+  height: 260px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.articles {
+  padding-top: 3%;
+  padding-left: 5%;
+}
+
