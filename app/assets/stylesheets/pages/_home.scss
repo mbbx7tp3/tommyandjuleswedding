@@ -5,6 +5,7 @@ body {
  display: flex;
  flex-direction: column;
  background-color: white;
+ font-family: ‘Pacifico’, sans-serif;
 }
 
 .mainpage {
@@ -14,9 +15,10 @@ body {
   margin-top: 2%
 }
 
-.mainpage h1 {
+.mainpage h1, .mainpage h5 {
   text-align: center;
-  font-family: Luthier;
+  font-family: ‘Pacifico’;
+  color: rgb(116,120,128)
 }
 
 .home-cards {
