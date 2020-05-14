@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get "itinerary", to: "pages#itinerary", as: :itinerary
   get "contact", to: "pages#contact", as: :contact
   get "gifts", to: "pages#gifts", as: :gifts
+  get "bank", to: "pages#bank", as: :bank
 
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
