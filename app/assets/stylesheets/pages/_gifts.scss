@@ -10,3 +10,15 @@
  .btn  a {
   color: rgb(116,120,128)
  }
+
+
+.rightgift img {
+  height: 500px;
+}
+
+
+@media (min-width: 100px) and (max-width: 575px) {
+  .rightgift img {
+  height: 400px;
+}
+}
