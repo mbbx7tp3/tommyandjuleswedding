@@ -8,6 +8,6 @@ Rails.application.routes.draw do
   get "contact", to: "pages#contact", as: :contact
   get "gifts", to: "pages#gifts", as: :gifts
   get "bank", to: "pages#bank", as: :bank
-
+  get "test", to: "pages#test", as: :test
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

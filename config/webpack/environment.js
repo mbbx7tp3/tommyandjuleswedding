@@ -14,4 +14,8 @@ environment.plugins.prepend('Provide',
   })
 );
 
+$(document).ready(function() {
+  jQuery.fn.carousel.Constructor.TRANSITION_DURATION = 2000  // 2 seconds
+});
+
 module.exports = environment
