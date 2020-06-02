@@ -26,9 +26,12 @@ width: 100%;
   padding-bottom: 20px;
 }
 
-.home-cards img {
-  width: 100%;
+.image-container {
+  width: 7380px;
   height: 100%;
+  position: relative;
+  transition: left 2s;
+  -webkit-transition: left 2s;
 }
 
 .mainpage img {
